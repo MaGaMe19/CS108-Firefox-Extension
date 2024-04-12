@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "CS-108 Reformat",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Mattia Metzler",
 
   "description": "Reformats all CS-108 pages (matching cs108.epfl.ch) to be more readable and somewhat nicer.",
@@ -17,7 +17,7 @@
       "js": ["javascript/body_width.js"]
     },
     {
-      "matches": ["*://cs108.epfl.ch/p/*"],
+      "matches": ["*://cs108.epfl.ch/p/*", "*://cs108.epfl.ch/e/*"],
       "js": ["javascript/code_highlighting.js", "javascript/list_spacing.js"]
     }
   ]
